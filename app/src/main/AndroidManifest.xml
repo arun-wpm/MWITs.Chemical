@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="th.ac.mwits.www.mwitschemical">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginPage"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+            <!-- android:theme="@android:style/Theme.Light.NoTitleBar"> -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainScreen" />
+        <activity android:name=".ChemicalList" />
+        <activity android:name=".AddChemical" />
+        <activity android:name=".ChemicalSearch" />
+        <activity android:name=".ChemicalDetails" />
+        <activity android:name=".GrantPermission" />
+        <activity android:name=".LogDetails" />
+        <activity android:name=".ReceiveChemical" />
+        <activity android:name=".ReturnChemical" />
+        <activity android:name=".Notifications" />
+        <activity android:name=".TabToGrant" />
+        <activity android:name=".TabToReturn" />
+        <activity android:name=".TabToReceive" />
+        <activity android:name=".Tab0Bottles" />
+        <activity android:name=".Tab1Bottle" />
+    </application>
+
+</manifest>

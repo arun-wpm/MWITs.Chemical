@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MWITs Chemical Database App</string>
+    <string name="Title">MWITs Chemical Database App</string>
+    <string name="serverAddress">10.4.1.227</string>
+    <string name="no_results">Nothing to show!</string>
+    <!-- <string name="serverAddress">192.168.1.64</string> -->
+    <string name="title_activity_notifications">Notifications</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>
